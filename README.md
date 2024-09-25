@@ -15,3 +15,9 @@
 ## 7_Service_and_Networking
 
 ## 8_State_Persistence
+
+
+# References
+
+- Udemy | CKAD with test by Mumshad Mannambeth (https://www.udemy.com/course/certified-kubernetes-application-developer/learn/). 
+- Pluralsight | Kubernetes for Developers: Core Concepts by Dan Wahlin (https://app.pluralsight.com/library/courses/kubernetes-developers-core-concepts/table-of-contents)
