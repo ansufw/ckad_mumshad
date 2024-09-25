@@ -7,6 +7,7 @@
 - create pod `kubectl run [pod-name] --image=[image-name]:[image-version]`
 - get pod list `kubectl get pods`
 - forward pod network `kubectl port-forward [pod-name] [external-port]:[internal-port]`
+- describe pod `kubectl describe pod [pod-name]`
 - delete pod `kubectl delete pod [pod-name]`
 
 **Practicing Commands**
