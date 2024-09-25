@@ -23,3 +23,28 @@ It's important to note that there are two similar terms: **replication controlle
 Both have the same purpose, but they're not the same. **Replication controller** is the older technology that is being replaced by replica set. **Replica set** is the new recommended way to set up replication. However, whatever we discussed in the previous few slides remain applicable to both these technologies.
 
 There are minor differences in the way each works and we will look at that in a bit. As such, we will try to stick to replica sets in all of our demos and implementations going forward. Let us now look at how we create a replication controller. As with the previous lecture, we start by creating a replication controller definition file.
+
+## Commands
+
+### create replicaset
+
+1. create replicaset `kubectl create -f [file-name]`
+2. get replicaset list `kubectl get replicaset`
+3. get pods list `kubectl get pods`
+4. delete pod `kubectl delete replicaset [replicaset-name]`
+
+### scale replicaset
+
+Opsi 1: 
+1. edit the number of replica on the file on the section `replicas`
+2. run `kubectl replace -f [file-name]`
+
+Opsi 2:
+- run `kubectl scale replicaset  --replicas=[number-of-replica] -f [file-name]`
+
+Opsi 3 (this opsi won't chenge replica number on the file):
+- run `kubectl scale replicaset  --replicas=[number-of-replica] replicaset replicaset-name` 
+
+
+
+
