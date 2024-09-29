@@ -6,7 +6,7 @@
 - In the k8s world, the IP address is assigned to a pod.
 - In this case, it's in the range ten point to 44 series and the IP assigned to the pod is 10.244.0.2.
 
-![jpg](./single.svg)<img src="./single.svg">
+![pod single](image.png)
 
 - So how is it getting this IP address?
 - When kubernetes is initially configured?
