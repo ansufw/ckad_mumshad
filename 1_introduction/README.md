@@ -1,3 +1,4 @@
 # Introduction
 
-this is a note to setup the environment so you can follow along with the course.
+1. labs - create your own k8s lab
+2. networking - understanding k8s networking
